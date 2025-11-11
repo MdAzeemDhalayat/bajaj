@@ -13,9 +13,9 @@ Spring Boot app that:
 ### Configure
 Edit `src/main/resources/application.properties`:
 ```
-bfhl.name=John Doe
-bfhl.regNo=REG12347
-bfhl.email=john@example.com
+bfhl.name=MD AZEEM FAYAZ AHMED DHALAYAT
+bfhl.regNo=PES1UG22CS341
+bfhl.email=azeemfd7869@gmail.com
 
 # Run headless (no web server/port)
 spring.main.web-application-type=none
@@ -70,27 +70,3 @@ Body:
 ```
 { "finalQuery": "YOUR_SQL_QUERY_HERE" }
 ```
-
-### Notes
-- Authorization header uses the raw token (spec shows no `Bearer` prefix).
-- All network calls are via `WebClient`. No controllers are exposed.
-- Logs will show the submission result or any errors.
-- For Odd SRN (Dept question), `src/main/resources/sql/odd.sql` contains the final query.
-
-### Direct downloadable JAR link
-- Preferred: GitHub Release asset
-  - Create a Release (e.g., tag `v1.0.0`) and upload `target/bajaj-qualifier-java-0.0.1-SNAPSHOT.jar`
-  - Copy the asset URL like:
-    - `https://github.com/<username>/<repo>/releases/download/v1.0.0/bajaj-qualifier-java-0.0.1-SNAPSHOT.jar`
-- Alternative: Raw link from repo (if you commit the JAR)
-  - `https://raw.githubusercontent.com/<username>/<repo>/main/target/bajaj-qualifier-java-0.0.1-SNAPSHOT.jar`
-  - Replace `main` with your branch if needed.
-
-### Submission checklist
-- Public GitHub repo URL
-  - Contains source, final SQL file, and the built JAR (or Release)
-- Direct downloadable JAR link (Release asset or raw link)
-- Submit the form: `https://forms.office.com/r/2cSHMsAbgr`
-
-
-"# bajaj" 
